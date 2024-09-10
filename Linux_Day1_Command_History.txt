@@ -1,0 +1,156 @@
+----------------In Root User-----------------------
+    1  whoami
+    2  useradd dev1
+    3  ls
+    4  id root
+    5  id dev1
+    6  id ram
+    7  useradd ram
+    8  id ram
+    9  cd /home/
+   10  ls
+   11  pwd
+   12  cat /etc/host
+   13  cat /etc/hosts
+   14  cat /etc/groups
+   15  cat /etc/group
+   16  groupadd Devs
+   17  groupadd QA
+   18  groupadd Devops
+   19  groupadd Managers
+   20  cat /etc/group
+   21  id ram
+   22  useradd --help
+   23  useradd -G Devs Dev1
+   24  id dev1
+   25  id Dev1
+   26  ls
+   27  cat /etc/group
+   28  clear
+   29  ls
+   30  passwd Dev1
+   31  su Dev1
+  give passwd to switch to Dev1
+
+----------------------in Dev1--------------------------
+    3  ls
+    4  cd Dev1/
+    5  ls
+    6  cat a.txt
+    7  touch a.txt
+    8  nano a.txt
+    9  cat a.txt
+    10 exit 
+
+switch back to root user
+
+-----------------In Root User-------------
+Trying to access the file created by Dev1, since it is a root user we are able to access
+   33  ls
+   34  Cd Dev1/
+   35  cd Dev1/
+   36  ls
+   37  cat a.txt
+   38  cd /	
+
+
+   39 passwd ram
+   40 su ram
+
+-----in user ram -----------------
+    1  ls
+    2  cd Dev1/
+ 
+Now we are not able to access the Dev1 folder as we are not root user and ram is a normal user
+    3. exit
+-----------------In Root User-------------
+   40  ls
+   41  cd /home/
+   42  ls
+   43  passwd ram
+   44  su ram
+   45  clear
+   46  passwd root
+   47  clear
+   48  cd Dev1/
+   49  su Dev1
+   50  yum install httpd
+   51  yum remove httpd
+   52  history
+   53  su Dev1
+   54  nano /etc/sudoers
+   55  nano /etc/sudoers
+   56  su Dev1
+   57  nano /etc/sudoers
+   58  su Dev1
+   59  nano /etc/sudoers
+   60  nano /etc/sudoers
+   61  su Dev1
+   62  nano /etc/sudoers
+   63  su Dev1
+   64  su Dev1
+   65  nano /etc/sudoers
+   66  ls -l /etc/sudoers
+   67  sudo chmod 0440 /etc/sudoers
+   68  ls -l /etc/sudoers
+   69  id Dev1
+   70  nano /etc/sudoers
+   71  su Dev1
+   72  nano /etc/sudoers
+   73  which yum
+   74  nano /etc/sudoers
+   75  su Dev1
+   76  nano /etc/sudoers
+   77  su Dev1
+   78  su Dev1
+  
+-----In Dev1 -----
+     sudo yum install httpd
+
+enter password of Dev1 it will get install
+     exit
+     
+     
+ 		
+
+-----In Root --------------------
+
+   80  clear
+   81  cd /etc/yum.repos.d/
+   82  pwd
+   83  ls
+   84  vi amazonlinux.repo 
+   85  yum search docker
+   86  yum search docker23213234
+   87  yum info docker
+   88  yum update
+   89  yum update httpd
+   90  yum install httpd -y
+   91  rpm -q httpd
+   92  yum update httpd
+   93  yum remove httpd
+   94  rpm -q httpd
+   95  yum list installed
+   96  yum clean all
+   97  yum repolist
+   98  yum history
+   99  ls
+  100  vi epel.repo
+  101  yum repolist
+  102  yum search binutils
+  103  yum install binutils.x86_64
+  104  yum whatprovides httpd
+  105  clear
+  106  cd /
+  107  ls
+  108  mkdir shell scripts
+  109  mkdir shell_scripts
+  110  ls
+  111  rmdir scripts/
+  112  rmdir shell
+  113  ls
+  114  cd shell_scripts/
+  115  ls
+  116  nano a.sh
+  117  history
+
