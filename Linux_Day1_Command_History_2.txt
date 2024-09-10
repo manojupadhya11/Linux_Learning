@@ -1,0 +1,211 @@
+This document contains the command history of shell scripting --------------------
+
+-------------------------------IN ROOT USER-----------------------------
+  108  mkdir shell scripts
+  109  mkdir shell_scripts
+  110  ls
+  111  rmdir scripts/
+  112  rmdir shell
+  113  ls
+  114  cd shell_scripts/
+  115  ls
+  116  nano a.sh
+  117  history
+  118  clear history
+  119  ls
+  120  nano a.sh
+  121  mv a.sh basics.sh
+  122  ls
+  123  nano basics.sh
+  124  sh basics.sh
+  125  nano basics.sh
+  126  sh basics.sh manoj Saanvi
+  127  nano basics.sh 
+  128  sh basics.sh manoj Saanvi
+  129  sh basics.sh Manoj
+  130  sh basics.sh manoj Saanvi
+  131  nano basics.sh 
+  132  sh basics.sh Manoj Saanvi Swathi
+  133  nano basics.sh 
+  134  nano funsctions.sh
+  135  sh funsctions.sh
+  136  mv funsctions.sh function.sh
+  137  sh function.sh 
+  138  nano function.shh
+  139  nano function.sh
+  140  nano software.sh
+  141  sh software.sh
+  142  ls
+  143  sh unistall-software.sh
+  144  nano unistall-software.sh
+  145  nano unistall-software.sh
+  146  sh unistall-software.sh
+  147  nano software.sh
+  148  nano unistall-software.sh
+  149  nano basic-createuser.sh
+  150  sh basic-createuser.sh Manoj
+  151  sh basic-createuser.sh
+  152  sh basic-createuser.sh manu
+  153  nano basic-createuser.sh
+  154  sh basic-createuser.sh manu
+  155  users --help
+  156  nano basic-createuser.sh
+  157  sh basic-createuser.sh manu
+  158  nano basic-createuser.sh
+  159  sh basic-createuser.sh manu
+  160  sh basic-createuser.sh 
+  161  ls
+  162  cd /
+  163  ls
+  164  cd /home/
+  165  ls
+  166  nano basic-createuser.sh
+  167  nano basic-createuser.shcd /shell_scripts/
+  168  cd /shell_scripts/
+  169  ls
+  170  nano basic-createuser.sh 
+  171  nano basic-createuser.sh
+  172  sh basic-createuser.sh 
+  173  sh basic-createuser.sh manu
+  174  cd /home/
+  175  ls
+  176  cd /shell_scripts/
+  177  ls
+  178* 
+  179  sh basic-createuser.sh manu
+  180  nano basic-createuser.sh
+  181  sh basic-createuser.sh manoj
+  182  nano basic-createuser.sh
+  183  sh basic-createuser.sh manoj
+  184  nano basic-createuser.sh
+  185  sh basic-createuser.sh manoj
+  186  nano basic-createuser.sh
+  187  sh basic-createuser.sh manoj
+  188  nano basic-createuser.sh
+  189  sh basic-createuser.sh manoj
+  190  id a=manoj
+  191  id manoj
+  192  sh basic-createuser.sh manoj ram
+  193  sh basic-createuser.sh manoj1 ram
+  194  id ram
+  195  sh basic-createuser.sh manoj1 ram2
+  196  sh basic-createuser.sh manoj2 ram2
+  197  id manoj2
+  198  nano basic-createuser.sh
+  199  sh basic-createuser.sh manoj3 ram3
+  200  sh basic-createuser.sh manoj3 ram3
+  201  nano basic-createuser.sh
+  202  sh basic-createuser.sh manoj4 ram4
+  203  sh basic-createuser.sh manoj4
+  204  ls
+  205  id manoj4
+  206  sh basic-createuser.sh manoj5, ram5
+  207  sh basic-createuser.sh manoj5,ram5
+  208  sh basic-createuser.sh manoj5 ram5
+  209  nano basic-createuser.sh
+  210  sh basic-createuser.sh manoj5 ram5
+  211  id ram5
+  212  id manoj5
+  213  sh basic-createuser.sh manoj6 ram6
+  214  id ram6
+  215  sh basic-createuser.sh manoj23  64 ram23  56
+  216  sh basic-createuser.sh manoj23 64 ram23  56
+  217  clear
+  218  nano basic-createuser.sh
+  219  date
+  220  date > output.txt
+  221  cat output.txt 
+  222  cal
+  223  cal > output.txt
+  224  cat output.txt 
+  225  nano /etc/sudoers
+  226  id Dev1
+  227  ls users
+  228  cd /home/
+  229  ls
+  230  userremove dev1
+  231  user remove dev1
+  232  id ram
+  233  id Dev1 
+  234  nano /etc/sudoers
+  235  sudo usermod -aG sudo Dev1
+  236  sudo usermod -aG wheel Dev1
+  237  id Dev1 
+  238  su Dev1
+  239  history
+  240  sudo su
+  241  ls
+  242  cd /
+  243  ls
+  244  cd shell_scripts/
+  245  ls
+  246  sh basic-createuser.sh Sudhanshu
+  247  id Sudhanshu 
+  248  cal > /dev/null
+  249  cat /dev/null 
+  250  ls /dev/null 
+  251  cal123 
+  252  cal123 > /dev/null
+  253  nano create-user.sh
+  254  sh create-user.sh Manoj
+  255  nano create-user.sh
+  256  sh create-user.sh Manoj
+  257  nano create-user.sh
+  258  sh create-user.sh Manoj123
+  259  cal > output.txt
+  260  cat output.txt 
+  261  cal123 > output.txt
+  262  cal123 &> output.txt
+  263  cat output.txt 
+  264  cal &> output.txt
+  265  cat output.txt 
+  266  nano create-user.sh
+  267  sh create-user.sh Manoj123456 sudhanshu12344 Gagan
+  268  clear
+  269  cal123 &> /dev/null 
+  270  cal &> /dev/null 
+  271  echo $?
+  272  date 
+  273  echo $?
+  274  date1234
+  275  echo $?
+  276  cal
+  277  echo $?
+  278  nano create-user.sh
+  279  sh create-user.sh Manoj1234563 sudhanshu123444 34
+  280  ls
+  281  nano create-user.sh 
+  282  cd /home/
+  283  ls
+  284  cd /
+  285  ls
+  286  cd shell_scripts/
+  287  ls
+  288  history
+  289  exit
+  290  sh create-user.sh Manoj123456 sudhanshu12344 Gagan
+  291  ls
+  292  cd /
+  293  ls
+  294  cd shell_scripts/
+  295  ls
+  296  history
+  297  nano create-user.sh
+  298  nano create-user.sh
+  299  user-db.csv
+  300  nano user-db.csv
+  301  nano user-db.csv
+  302  nano create-user.sh
+  303  nano user-db.csv
+  304  sh create-user.sh Arjun
+  305  cat user-db.csv 
+  306  which bash
+  307  ls
+  308  chmod +x create-user.sh
+  309  ls
+  310  ./create-user.sh 
+  311  nano db.csv
+  312  nano create-user.sh
+  313  create-user.sh 
+  314  ./create-user.sh 
+  315  history
