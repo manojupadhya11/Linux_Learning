@@ -143,14 +143,5 @@ enter password of Dev1 it will get install
   105  clear
   106  cd /
   107  ls
-  108  mkdir shell scripts
-  109  mkdir shell_scripts
-  110  ls
-  111  rmdir scripts/
-  112  rmdir shell
-  113  ls
-  114  cd shell_scripts/
-  115  ls
-  116  nano a.sh
-  117  history
+
 
