@@ -1,0 +1,41 @@
+    1  echo hellow world
+    2  date
+    3  whoami
+    4  cd home
+    5  cd /
+    6  pwd
+    7  mkdir manu
+    8  mkdir /manu/movies
+    9  cd /manu/movies/
+   10  pwd
+   11  cd ..
+   12  cd ..
+   13  cd movies/
+   14  cd manu/
+   15  cd movies/
+   16  cd Hawai
+   17  mkdir Hawai
+   18  cd Hawai/
+   19  cd .
+   20  cd ..
+   21  cd ~
+   22  cd -
+   23  cd _
+   24  cd -
+   25  cd .
+   26  cd ..
+   27  cd ~
+   28  cd -
+   29  cd -
+   30  cd /
+   31  cd manu/
+   32  cd movies/
+   33  ls
+   34  cd Hawai/
+   35  cd .
+   36  cd ..
+   37  cd ~
+   38  cd -
+   39  cd -
+   40  cd 
+   41  history
