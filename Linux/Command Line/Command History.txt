@@ -67,3 +67,80 @@
    66  cat manu.txt 
    67  less manu.txt 
    68  history
+
+
+----------------------------------------------------------------
+
+
+    1  mkdire manu
+    2  mkdir manu
+    3  touch manu.jpg
+    4  find /home -name manu.jpg
+    5  find /manu -name manu.jpg
+    6  ls
+    7  cd manu
+    8  touch manoj.txt
+    9  cd ..
+   10  ls
+   11  find /manu -name manu.jpg
+   12  ls /manu
+   13  find /manu -name manoj.txt
+   14  find / -type -d -name manu
+   15  find / -type d -name manu
+   16  help echo
+   17  echo --help
+   18  man ls
+   19  whatis cat
+   20  whatis ls
+   21  alias foobar='ls -la'
+   22  ~/.bashrc
+   23  ~/
+   24  $ unalias foobar
+   25  unalias foobar
+   26  exit
+   27  ls
+   28  pwd
+   29  ls -la
+   30  echo Hello world > manu.txt
+   31  cat manu.txt 
+   32  echo hellow world
+   33  echo Hello world I love manu >> manu.txt
+   34  cat manu.txt 
+   35  echo Hello world I love manu > manu.txt
+   36  cat manu.txt 
+   37  cat < manu.txt > manu2.txt
+   38  cat manu2.txt 
+   39  cat manu.txt > manu3.txt
+   40  ls
+   41  ls
+   42  cd ..
+   43  ls
+   44  ls /ec2-user
+   45  cd ec2-user/
+   46  mkdir fake
+   47  mkdir fake/direct
+   48  ls
+   49  ls /fake/direct > manu4.txt
+   50  ls /fake/direct 2> manu4.txt
+   51  cat manu4.txt 
+   52  ls /fake/direct > manu4.txt 2>&1
+   53  cat manu4.txt 
+   54   ls -ls /etc
+   55   ls -ls /etc | less
+   56  less manu.txt 
+   57  ls | tee manu4.txt 
+   58  cat manu4.txt 
+   59  echo $HOME
+   60  echo $USER
+   61  env
+   62  echo 
+   63  echo $PATH
+   64  yum -l
+   65  sudo -l
+   66  clear
+   67  sudo -l
+   68  sudo help
+   69  help sudo
+   70  man sudo
+   71  clear
+   72  history
